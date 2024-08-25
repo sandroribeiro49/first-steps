@@ -1,5 +1,7 @@
 # Steps and Commands 
 
+
+## Git Commands
 1 - Install VSCode & Git succesfully
 2 - Create my own folder for repos with mkdir repos in sandr user folder using VSCode terminal
 3 - Open repo folder on new window and clone the Github repository for my repo folder using git clone https on terminal
@@ -7,7 +9,13 @@
 5 - Make changes on the cloned archives and save to VSCode using Ctrl + S.
     optional: check status of changes using git status on terminal
 6 - Turn changes saved on local repository into Staged with git add . command on terminal 
-7 - Then Commit and describes with a message using git commit -a -m "message-for-commit"
+7 - Then Commit and describes with a message using git commit -a -m "message-for-commition"
 8 - Set everything up-to-date on the remote repository using git push on terminal 
 
-
+## Branching
+1 - Open the git local repository you're currently working on with cd name-of-the-repo
+2 - Create a branch out from the Default main to separate changes and switch to it with the git checkout -b name-of-branch command
+3 - After saving the changes on the new branch, stage and commit it to the local repository using git add add . and git commit -a -m "meessage-for-commition" on terminal
+4 - Push the new branch to remote repository using git push -u -origin -name-of-branch command on terminal
+    note: origin is this case works as a standard pre-configured reference on git to the remote repository and is tokenizated by the declared URL informed when the remote repo was cloned
+    
