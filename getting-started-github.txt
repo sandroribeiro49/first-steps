@@ -6,6 +6,8 @@
 4 - Open the cloned repository on terminal using cd "cloned-repository-name"
 5 - Make changes on the cloned archives and save to VSCode using Ctrl + S.
     optional: check status of changes using git status on terminal
-6 - Commit and add message using git commit -a -m "message-for-commit"
+6 - Turn changes saved on local repository into Staged with git add . command on terminal 
+7 - Then Commit and describes with a message using git commit -a -m "message-for-commit"
+8 - Set everything up-to-date on the remote repository using git push on terminal 
 
 
