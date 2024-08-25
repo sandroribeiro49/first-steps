@@ -1,0 +1,3 @@
+## Analysing my first Database
+
+Goal: Make a preliminary recognition of all the variables from a Rural Credit Program database of the Brazilian Government for familiar agriculture enterpreneurs (PRONAF).
